@@ -11,8 +11,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Greater Amulet of Escape");
-            Tooltip.SetDefault("2 increased Stand attack speed");
+            DisplayName.SetDefault("Grande Amuleto da Fuga");
+            Tooltip.SetDefault("2 velocidade de ataque de stand aumentada");
         }
         public override void SetDefaults()
         {
