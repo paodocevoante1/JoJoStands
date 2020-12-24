@@ -12,8 +12,8 @@ namespace JoJoStands.Buffs.Debuffs
 
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Zipped!");
-            Description.SetDefault("A zipper has been placed on your body, blood is spilling quickly!");
+            DisplayName.SetDefault("Zipado!");
+            Description.SetDefault("Um zíper foi colocado em seu corpo, o sangue está derramando rapidamente!");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
             Main.persistentBuff[Type] = true;
