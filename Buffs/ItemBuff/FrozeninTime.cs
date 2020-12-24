@@ -10,8 +10,8 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Frozen in Time");
-            Description.SetDefault("You have been stopped along with time");
+			DisplayName.SetDefault("Parado no tempo");
+            Description.SetDefault("Você foi parado com o tempo");
             Main.persistentBuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
             Main.debuff[Type] = true;       //so that it can't be canceled
