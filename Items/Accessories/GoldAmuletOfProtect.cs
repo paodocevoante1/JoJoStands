@@ -11,8 +11,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Amulet of Protect");
-            Tooltip.SetDefault("Increased Defense while Stand is out.");
+            DisplayName.SetDefault("Amuleto de Proteção");
+            Tooltip.SetDefault("Aumento da defesa enquanto o Stand está fora.");
         }
         public override void SetDefaults()
         {
