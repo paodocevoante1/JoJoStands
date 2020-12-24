@@ -8,7 +8,7 @@ namespace JoJoStands.Buffs.ItemBuff
         public override void SetDefaults()
         {
 			DisplayName.SetDefault("Dolly Dagger");
-            Description.SetDefault("When hit, a certain percentage of damage is reflected back to the enemy.");
+            Description.SetDefault("Quando atingido, uma certa porcentagem do dano é refletida de volta para o inimigo.");
             Main.buffNoTimeDisplay[Type] = true;
         }
 
