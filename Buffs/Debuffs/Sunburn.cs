@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Sunburn");
-            Description.SetDefault("You're burning in the sunlight!");
+			DisplayName.SetDefault("Queimadura de sol");
+            Description.SetDefault("Você está queimando à luz do sol!");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }
