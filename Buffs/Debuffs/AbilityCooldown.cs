@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Ability Cooldown");
-            Description.SetDefault("You can no longer use any stand abilities...");
+			DisplayName.SetDefault("Habilidade em Recarga");
+            Description.SetDefault("Você não pode mais usar nenhuma habilidade de stand ...");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;
             canBeCleared = false;
