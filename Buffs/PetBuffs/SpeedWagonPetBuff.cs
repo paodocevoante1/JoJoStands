@@ -8,7 +8,7 @@ namespace JoJoStands.Buffs.PetBuffs
         public override void SetDefaults()
         {
             DisplayName.SetDefault("Speedwagon Pet");
-            Description.SetDefault("He's rooting for you.");
+            Description.SetDefault("Ele está torcendo por você.");
             Main.buffNoTimeDisplay[Type] = false;
         }
  
