@@ -17,8 +17,8 @@ namespace JoJoStands.Buffs.ItemBuff
 
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Death Loop");
-            Description.SetDefault("The next enemy you kill will go through endless deaths...");
+			DisplayName.SetDefault("Circlo Da Morte");
+            Description.SetDefault("O próximo inimigo que você matar passará por mortes infinitas ...");
             Main.persistentBuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
             Main.debuff[Type] = true;       //so that you can't cancel it or it breaks everything
