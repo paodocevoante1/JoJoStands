@@ -8,8 +8,8 @@ namespace JoJoStands.Buffs.AccessoryBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Vampire");
-            Description.SetDefault("You are now a vampire... Stay away from the sun!");
+			DisplayName.SetDefault("Vampiro");
+            Description.SetDefault("Você agora é um vampiro ... Fique longe do sol!");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }
