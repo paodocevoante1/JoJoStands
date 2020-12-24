@@ -10,7 +10,7 @@ namespace JoJoStands.Buffs.ItemBuff
         public override void SetDefaults()
         {
             DisplayName.SetDefault("Bite The Dust");
-            Description.SetDefault("The day is now restarting and your enemies are disappearing.");
+            Description.SetDefault("O dia está recomeçando e seus inimigos estão desaparecendo.");
             Main.persistentBuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
             Main.debuff[Type] = true;
