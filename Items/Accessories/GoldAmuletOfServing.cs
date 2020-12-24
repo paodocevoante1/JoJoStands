@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Amulet of Serving");
-            Tooltip.SetDefault("30% increased Stand attack damage\nIncreased defense while the Stand is out");
+            DisplayName.SetDefault("Amuleto de Servir");
+            Tooltip.SetDefault("Dano de ataque de suporte aumentado em 30% e aumento da defesa enquanto o stand está fora");
         }
 
         public override void SetDefaults()
