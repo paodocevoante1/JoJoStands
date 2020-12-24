@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Artificial Soul");
-            Description.SetDefault("An artificial soul has been given to you!");
+			DisplayName.SetDefault("Alma Artificial");
+            Description.SetDefault("Uma alma artificial foi dada a você!");
             canBeCleared = false;
             Main.debuff[Type] = true;
         }
