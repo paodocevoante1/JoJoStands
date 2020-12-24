@@ -12,8 +12,8 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Skipping Time");
-            Description.SetDefault("Time is skipping");
+			DisplayName.SetDefault("Tempo de salto");
+            Description.SetDefault("O tempo está sendo saltado");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;       //so that it can't be canceled
         }
