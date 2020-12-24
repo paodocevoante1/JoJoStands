@@ -8,8 +8,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Old");
-            Description.SetDefault("Your knees are shaking, you feel powerless and tired.");
+            DisplayName.SetDefault("Velho");
+            Description.SetDefault("Seus joelhos estão tremendo, você se sente fraco e cansado.");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }
