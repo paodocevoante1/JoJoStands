@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.PlayerBuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Sharp Mind");
-            Description.SetDefault("Your mental reflexes have sharpened and thus, your Stand Crit Chance increased by 10%");
+            DisplayName.SetDefault("Mente afiada");
+            Description.SetDefault("Seus reflexos mentais foram aguçados e, portanto, sua Chance de Crítico de Resistência aumentou em 10%");
             Main.buffNoTimeDisplay[Type] = false;
         }
  
