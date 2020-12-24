@@ -11,8 +11,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Greater Amulet of Control");
-            Tooltip.SetDefault("10% Stand Ability cooldown reduction");
+            DisplayName.SetDefault("Grande Amuleto De Controle ");
+            Tooltip.SetDefault("10% de redução do resfriamento da capacidade de stand");
         }
         public override void SetDefaults()
         {
