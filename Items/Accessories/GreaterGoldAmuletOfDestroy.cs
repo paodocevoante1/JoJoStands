@@ -11,8 +11,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Greater Amulet of Destroy");
-            Tooltip.SetDefault("Makes melee stands inflict Cursed Flames on enemies.");
+            DisplayName.SetDefault("Grande Amuleto da Destruição");
+            Tooltip.SetDefault("Faz stands de corpo a corpo infligir Chamas Amaldiçoadas nos inimigos.");
         }
         public override void SetDefaults()
         {
