@@ -10,6 +10,7 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 8));
+            DisplayName.SetDefault("Amuleto Despertado");
             Tooltip.SetDefault("Um amuleto que representa e melhora perfeitamente a forma da alma. \n30% de dano de ataque de stand aumentada \n2 Velocidade de stand aumentada \n20% Redução de resfriamento da Habilidade de stand aumentada \n30% de chance de crítica de stand aumentada \nFaz ataques stands de corpo a corpo infligir debuff Infectados nos inimigos  \naumento de defesa enquanto o Stand está fora");
         }
 
