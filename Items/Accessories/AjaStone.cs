@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Red Stone of Aja");
-            Tooltip.SetDefault("Wear this stone to walk on water, increase your regenerative capabilities, and increase your max hamon!");
+            DisplayName.SetDefault("Pedra Vermelha de Aja");
+            Tooltip.SetDefault("Use esta pedra para andar sobre a água, aumente suas capacidades regenerativas e aumente seu hamon máximo!");
         }
 
         public override void SetDefaults()
