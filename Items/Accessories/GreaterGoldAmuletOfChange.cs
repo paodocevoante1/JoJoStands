@@ -11,8 +11,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Greater Amulet of Change");
-            Tooltip.SetDefault("20% increased Stand crit chance");
+            DisplayName.SetDefault("Grande Amuleto da Mudança");
+            Tooltip.SetDefault("Chance de crítica de stand aumentada em 20%");
         }
         public override void SetDefaults()
         {
