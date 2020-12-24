@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Iced Water");
-            Tooltip.SetDefault("Water with ice in it, perfect to stay hydrated and cool.");
+            DisplayName.SetDefault("Água Gelada");
+            Tooltip.SetDefault("Água com gelo, perfeita para se manter hidratado e fresco.");
         }
         public override void SetDefaults()
         {
