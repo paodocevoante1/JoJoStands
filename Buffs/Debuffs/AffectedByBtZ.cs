@@ -9,7 +9,7 @@ namespace JoJoStands.Buffs.Debuffs
         public override void SetDefaults()
         {
 			DisplayName.SetDefault("Zero");
-            Description.SetDefault("You are stuck at zero.");
+            Description.SetDefault("Você está preso em zero.");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;
         }
