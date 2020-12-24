@@ -17,7 +17,7 @@ namespace JoJoStands.Buffs.ItemBuff
 
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Circlo Da Morte");
+			DisplayName.SetDefault("Circlo De Morte");
             Description.SetDefault("O próximo inimigo que você matar passará por mortes infinitas ...");
             Main.persistentBuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
