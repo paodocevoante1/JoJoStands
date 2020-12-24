@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Amulet of Manipulation");
-            Tooltip.SetDefault("20% Stand Ability cooldown reduction\nMakes melee stands inflict Cursed Flames on enemies.");
+            DisplayName.SetDefault("Amuleto da Manipulação");
+            Tooltip.SetDefault("Resfritamento de habilidade de stands reduzido em 20% e faz stands de corpo a corpo infligir Chamas Amaldiçoadas nos inimigos.");
         }
 
         public override void SetDefaults()
