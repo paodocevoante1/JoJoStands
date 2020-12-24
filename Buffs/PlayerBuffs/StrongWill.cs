@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.PlayerBuffs
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Strong Will");
-            Description.SetDefault("You feel as if you and your stand can do anything!\n+10% Increased Stand Damage");
+			DisplayName.SetDefault("Força De Vontade");
+            Description.SetDefault("Você sente como se você e seu suporte pudessem fazer qualquer coisa! \ N + 10% de aumento de dano do suporte");
             Main.buffNoTimeDisplay[Type] = false;
         }
  
