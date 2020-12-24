@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.PlayerBuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Coordinated Eyes");
-            Description.SetDefault("Your eyes are able to focus on everything, thus, your stand can now go even farther. (+1 Tile Range Radius)");
+            DisplayName.SetDefault("Olhos Coordenados");
+            Description.SetDefault("Seus olhos podem focar em tudo, portanto, sua posição pode ir ainda mais longe. (Raio de alcance do bloco +1)");
             Main.buffNoTimeDisplay[Type] = false;
         }
  
