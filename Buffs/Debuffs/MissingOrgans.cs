@@ -11,8 +11,8 @@ namespace JoJoStands.Buffs.Debuffs
 
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Missing Organs!");
-            Description.SetDefault("Parts of your body have been scraped away!");
+            DisplayName.SetDefault("Órgãos ausentes!");
+            Description.SetDefault("Partes do seu corpo foram arrancadas!");
             Main.debuff[Type] = true;
         }
 
