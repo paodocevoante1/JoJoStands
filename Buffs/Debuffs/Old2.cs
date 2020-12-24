@@ -8,8 +8,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Old");
-            Description.SetDefault("You can feel your entire life energy leaving.");
+            DisplayName.SetDefault("Velho");
+            Description.SetDefault("Você pode sentir toda a sua energia vital saindo.");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }
