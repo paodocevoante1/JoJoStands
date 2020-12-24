@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.PlayerBuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Mental Fortitude");
-            Description.SetDefault("Your will is unbreakable.\nDefense increased by 3.");
+            DisplayName.SetDefault("Fortaleza Mental");
+            Description.SetDefault("Sua vontade é inquebrável. \ Defesa aumentada em 3.");
             Main.buffNoTimeDisplay[Type] = false;
         }
  
