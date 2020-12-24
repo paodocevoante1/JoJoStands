@@ -9,7 +9,7 @@ namespace JoJoStands.Buffs.AccessoryBuff
         public override void SetDefaults()
         {
             DisplayName.SetDefault("Vampiro Morrendo");
-            Description.SetDefault("Apenas sua cabeça permanece.");
+            Description.SetDefault("Apenas sua cabeça permanece");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }
