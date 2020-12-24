@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Infected");
-            Description.SetDefault("Some sort of otherworldly virus is spreading inside your body.");
+            DisplayName.SetDefault("Infectado");
+            Description.SetDefault("Algum tipo de vírus de outro mundo está se espalhando dentro do seu corpo.");
             Main.debuff[Type] = true;
         }
 
