@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
         public override void SetStaticDefaults()
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
-            DisplayName.SetDefault("Greater Amulet of Fight");
-            Tooltip.SetDefault("20% increased Stand attack damage");
+            DisplayName.SetDefault("Grande Amuleto de Luta");
+            Tooltip.SetDefault("Danos de ataque de stand aumentados em 20%");
         }
         public override void SetDefaults()
         {
