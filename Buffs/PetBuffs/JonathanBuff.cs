@@ -8,7 +8,7 @@ namespace JoJoStands.Buffs.PetBuffs
         public override void SetDefaults()
         {
             DisplayName.SetDefault("Jonathan Pet");
-            Description.SetDefault("He believes in you.");
+            Description.SetDefault("Ele acredita em você.");
             Main.buffNoTimeDisplay[Type] = false;
         }
  
