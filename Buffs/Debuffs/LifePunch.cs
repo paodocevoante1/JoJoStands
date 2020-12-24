@@ -8,8 +8,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Life Punched");
-            Description.SetDefault("Your senses are accellarated and your body can't keep up with you!");
+            DisplayName.SetDefault("Punho da Vida");
+            Description.SetDefault("Seus sentidos estão acelerados e seu corpo não consegue acompanhar você!");
             Main.persistentBuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
             Main.debuff[Type] = true;
