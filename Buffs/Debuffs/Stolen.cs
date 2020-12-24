@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.Debuffs
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Stolen");
-            Description.SetDefault("Your stand disc has been stolen!");
+            DisplayName.SetDefault("Roubado");
+            Description.SetDefault("Seu disco de stand foi roubado!");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;       //so that it can't be canceled
             canBeCleared = false;
