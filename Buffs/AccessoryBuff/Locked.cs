@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.AccessoryBuff
     {
         public override void SetDefaults()
         {
-            DisplayName.SetDefault("Locked");
-            Description.SetDefault("Your guilt is increasing and it hurts.");
+            DisplayName.SetDefault("Bloqueado");
+            Description.SetDefault("Sua culpa está aumentando e machuca.");
             Main.debuff[Type] = true;
             Main.buffNoTimeDisplay[Type] = true;
         }
