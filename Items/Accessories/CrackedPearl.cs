@@ -9,8 +9,8 @@ namespace JoJoStands.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Cracked Pearl");
-            Tooltip.SetDefault("A not well removed pearl from that ring. It seems to leak some sort of Infecting Gas though.");
+            DisplayName.SetDefault("Pérola rachada");
+            Tooltip.SetDefault("Uma pérola não bem removida daquele anel. Parece vazar algum tipo de gás infectante.");
         }
         public override void SetDefaults()
         {
