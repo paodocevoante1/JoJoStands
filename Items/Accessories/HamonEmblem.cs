@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+Eusing Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Hamon Emblem");
-            Tooltip.SetDefault("15% increased hamon damage");
+            DisplayName.SetDefault("Emblema Do Hamon");
+            Tooltip.SetDefault("15% de aumento de dano hamon");
         }
 
         public override void SetDefaults()
