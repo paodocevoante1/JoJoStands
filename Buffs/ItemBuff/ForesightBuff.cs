@@ -12,7 +12,7 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Foresight");
+			DisplayName.SetDefault("Prospectivo");
             Description.SetDefault("Suas ações já foram vistas ...");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;       //so that it can't be canceled
