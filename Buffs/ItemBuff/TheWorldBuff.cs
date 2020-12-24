@@ -12,7 +12,7 @@ namespace JoJoStands.Buffs.ItemBuff
         public override void SetDefaults()
         {
 			DisplayName.SetDefault("The World");
-            Description.SetDefault("Time... has been stopped");
+            Description.SetDefault("O tempo ... parou");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;
             canBeCleared = false;
