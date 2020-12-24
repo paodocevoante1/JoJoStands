@@ -11,7 +11,7 @@ namespace JoJoStands.Items.Accessories
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
             DisplayName.SetDefault("Amuleto de Adaptação");
-            Tooltip.SetDefault("2 velocidade de ataque de stand aumentada e30% de chance de crítica de stand aumentada");
+            Tooltip.SetDefault("2 velocidade de ataque de stand aumentada e 30% de chance de crítica de stand aumentada");
         }
 
         public override void SetDefaults()
