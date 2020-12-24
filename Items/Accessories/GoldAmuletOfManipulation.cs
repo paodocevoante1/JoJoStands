@@ -11,7 +11,7 @@ namespace JoJoStands.Items.Accessories
         {
             Main.RegisterItemAnimation(item.type, new DrawAnimationVertical(10, 4));
             DisplayName.SetDefault("Amuleto de Manipulação");
-            Tooltip.SetDefault("Redução do resfriamento da Habilidade de Resistência de 20% \ nFaz rstans de corpo a corpo infligir Chamas Amaldiçoadas nos inimigos.");
+            Tooltip.SetDefault("Redução do resfriamento da Habilidade de Resistência de 20%  \nFaz rstans de corpo a corpo infligir Chamas Amaldiçoadas nos inimigos.");
         }
 
         public override void SetDefaults()
