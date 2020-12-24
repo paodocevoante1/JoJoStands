@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Viral Pearl Ring");
-            Tooltip.SetDefault("Right Click to remove the Pearl. Be careful not to break it!");
+            DisplayName.SetDefault("Anel de Perola viral");
+            Tooltip.SetDefault("Clique com o botão direito para remover a pérola. Tenha cuidado para não quebrá-lo!");
         }
 
         public override void SetDefaults()
