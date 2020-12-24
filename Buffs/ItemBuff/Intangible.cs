@@ -11,8 +11,8 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Intangible!");
-            Description.SetDefault("Zip through blocks for 2 minutes!");
+			DisplayName.SetDefault("Intangível!");
+            Description.SetDefault("Zipe os blocos por 2 minutos!");
         }
  
         public override void Update(Player player, ref int buffIndex)
