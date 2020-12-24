@@ -11,7 +11,7 @@ namespace JoJoStands.Commands
 
         public override string Usage { get { return "/deathsoundlist <number>"; } }
 
-        public override string Description { get { return "Change the sound that plays when you die! Pick the sound with a number"; } }
+        public override string Description { get { return "Mude o som que toca quando você morre! Escolha o som com um número"; } }
 
         public override void Action(CommandCaller caller, string input, string[] args)
         {
