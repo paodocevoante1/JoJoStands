@@ -10,8 +10,8 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Back to Zero");
-            Description.SetDefault("Enemies that hurt you never touched you at all...");
+			DisplayName.SetDefault("De Volta Ao Zero");
+            Description.SetDefault("Inimigos que te machucaram nunca mais tocaram em você ...");
             Main.persistentBuff[Type] = true;
             Main.debuff[Type] = true;
         }
