@@ -7,8 +7,8 @@ namespace JoJoStands.Buffs.ItemBuff
     {
         public override void SetDefaults()
         {
-			DisplayName.SetDefault("Pierced!");
-            Description.SetDefault("You have been pierced by an arrow shard!");
+			DisplayName.SetDefault("Perfurado!");
+            Description.SetDefault("Você foi perfurado por um fragmento de flecha!");
             Main.debuff[Type] = true;
             canBeCleared = false;
         }
