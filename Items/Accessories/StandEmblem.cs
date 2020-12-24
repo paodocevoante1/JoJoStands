@@ -10,8 +10,8 @@ namespace JoJoStands.Items.Accessories
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Stand Emblem");
-            Tooltip.SetDefault("15% increased stand damage");
+            DisplayName.SetDefault("Emblema De Stand");
+            Tooltip.SetDefault("15% de aumento de dano no stand");
         }
 
         public override void SetDefaults()
